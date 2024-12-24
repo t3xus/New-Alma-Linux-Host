@@ -1,5 +1,5 @@
 
-# NewAlmaLinuxHost Setup Script
+# Alma Linux Host Setup Script
 
 ![Static Badge](https://img.shields.io/badge/Author-Jgooch-1F4D37)
 ![Static Badge](https://img.shields.io/badge/Platform-AlmaLinux-blue)
