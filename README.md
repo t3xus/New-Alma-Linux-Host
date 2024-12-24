@@ -97,18 +97,6 @@ Upon successful execution, the script outputs:
 NewAlmaLinuxHost setup has been successfully configured for <your-domain> with firewall rules, GeoIP, and Fail2Ban!
 ```
 
-## Customization
-
-- Modify the `dependency_list` array to include additional packages if needed.
-- Update the Nginx or Apache configuration templates for custom requirements.
-- Extend the firewall rules by modifying the Firewalld configuration section.
-
-## Support
-
-For support, contact:
-- **Email**: support@yourdomain.com
-- **Website**: [https://yourdomain.com](https://yourdomain.com)
-
 ## License
 
 This script is distributed under the MIT License. See `LICENSE` for more information.
