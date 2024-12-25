@@ -1,8 +1,9 @@
-
 # Alma Linux Host Setup Script
 
 ![Static Badge](https://img.shields.io/badge/Author-Jgooch-1F4D37)
 ![Static Badge](https://img.shields.io/badge/Platform-AlmaLinux-blue)
+![npm version](https://img.shields.io/npm/v/new-alma-linux-host)
+![npm downloads](https://img.shields.io/npm/dm/new-alma-linux-host)
 
 ## Overview
 
@@ -38,22 +39,15 @@ This script automates the setup and configuration of a new AlmaLinux host. It in
 
 ## Usage
 
-1. **Download the Script**:
-   Save the script to your AlmaLinux host.
+### Install via npm:
+```bash
+npm install -g new-alma-linux-host
+```
 
-2. **Make the Script Executable**:
-   ```bash
-   chmod +x NewAlmaLinuxHost.sh
-   ```
-
-3. **Run the Script**:
-   ```bash
-   sudo ./NewAlmaLinuxHost.sh
-   ```
-
-4. **Provide Inputs When Prompted**:
-   - Public IP address of the server.
-   - Domain or subdomain to be configured.
+### Run the Script:
+```bash
+sudo new-alma-linux-host
+```
 
 ## What the Script Does
 
